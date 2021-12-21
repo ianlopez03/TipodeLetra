@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+#TituArriba{
+	background-color:blue;
+	text-align:center;
+	font-family: 'PottaOne';
+	color: yellow;
+	width: 1200px;
+}
+
+@font-face {
+	font-family: PottaOne;
+	src: url(PottaOne-Regular.ttf);
+}
+
+#izquierda {
+	background-color: #0097a7;
+	float:left;
+	width:400px;
+	color: white;
+	font-size:15px;
+	line-height:170%;
+}
+
+#derecha {
+	background-color: black;
+	display: inline;
+	width:400px;
+	color: yellow;
+	font-size:15px;
+	line-height:270%;
+}
+
+#hrarriba {
+	width:580px;
+}
+
+#hrmedio {
+	  border: 8px solid blue;
+	  width:1200px;
+	  position: absolute;
+}
+#hrbajo {
+	width:580px;
+	
+}
+@font-face {
+	font-family: CodaCaption;
+	src: url(CodaCaption-ExtraBold.ttf);
+}
+@font-face {
+	font-family: YuseiMagic;
+	src: url(YuseiMagic-Regular.ttf);
+}
+
+#parrafomedio {
+	font-family: 'PottaOne';
+	font-size:20px;
+}
+
+#parrafobajo {
+	font-family: 'YuseiMagic';
+	font-size:20px;
+}
